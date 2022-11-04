@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Web Title-->
+    <title>Dulce Sensación</title>
+    <!--Link to CSS file-->
+    <link rel="stylesheet"  href="style.css">
+    <script src="https://kit.fontawesome.com/0595d8ee5a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Navivation Bar-->
+    <header>
+        <!--Logo-->
+        <div class="logo">
+            <a href="index.html"><img src="./Logo/Logopastel2.png" alt="Logo Dulce Sensación"></a>
+        </div>
+    <!--Nav menu-->
+        <nav>
+            <button class="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+           <div class="navbar">
+            <a href="#" class="nav-link">Inicio</a>
+            <a href="#catalogo" class="nav-link">Catálogo</a>
+            <a href="" class="nav-link">Nosotros</a>
+            <a href="#pedidos" class="nav-link">Pedidos</a>
+            <a href="#contacto" class="nav-link">Contacto</a>
+           </div>
+        </nav>
+    </header>
+    <!--Section Web logo and slogan-->
+    <section class="fondoImagen">
+        <div class="logo2">
+            <img src="./Logo/LogoPastel.png" alt="Logo Dulce Sensación">
+        </div> 
+        <h2 class="eslogan">¡Date un dulce gusto!</h2>
+    </section>
+    
+    <!--Catalago Section-->
+        <section id="catalogo" class="catalogo">
+           <div class="fondoTortas">
+            <h2 class="h2"><a href="#">Tortas</a></h2>
+           </div>
+
+           <div class="fondoCupcakes">
+            <h2 class="h2"><a href="#">Cupcakes</a></h2>
+           </div>
+
+           <div class="fondoMasitas">
+            <h2 class="h2"><a href="#">Masitas</a></h2>
+           </div>
+        </section>
+    <!--Pedidos Section-->
+        <section id="pedidos" class="pedidos">
+            <!--Pedidos Form-->
+          <form class="pedidosForm">
+            <div class="formGroup">
+                <h1 class="PedidosTitle">Pedidos</h1>
+
+                <p class="HazTusP">¡Haz tus pedidos aquí!</p><br>
+
+                <input type="text" id="name" name="name" class="formulario" placeholder="  Nombre completo"> 
+                <br><br>
+                <input type="tel" id="numberphone" class="formulario" placeholder="  Número de teléfono" minlength="10" maxlength="13">
+                <br><br>
+                <input type="email" id="email" class="formulario" placeholder="  example@gmail.com">
+                <br><br>
+                <input type="text" id="text" class="formularioText" placeholder="  Esciba una descripción general del pedido" maxlength="150">
+
+                <h4>Elige tu orden</h4>
+                <select id="Orden" name="Orden" class="Orden">
+                   <option value="Torta">Torta</option>
+                   <option value="Cupcake">Cupcake</option>
+                   <option value="Masita">Masita</option>
+                </select><br><br>
+              
+                <input type="submit" class="submitBtn">
+
+            </div>
+          </form>
+        </section>
+    <!--Footer-->
+        <footer>
+           <div class="footer">
+            <div class="HorarioAt">
+                <p>Horarios de atención</p>
+                <p>Lun a Vie ............... 07:00 a 19:00 hs</p>
+                <p>Sábados ................. 08:00 a 20:00 hs</p>
+                <p>Domingos .............. 08:00 a 14:00 hs</p>
+            </div>
+
+            <div class="Ubicacion">
+                <p><a href="https://goo.gl/maps/5C5NzFdUraLgqvAZA" target="_blank">Ubicación</a></p>
+                <p><a href="https://goo.gl/maps/5C5NzFdUraLgqvAZA" target="_blank">Dulce Sensación Pastelería</a></p>
+                <p><a href="https://goo.gl/maps/5C5NzFdUraLgqvAZA" target="_blank">Rojas Cañadas, Capiatá ruta 2</a></p>
+            </div>
+
+            <div id="contacto" class="Contacto">
+                <p><a href="https://www.facebook.com/profile.php?id=100057667710156">Contacto</a></p>
+
+                <p><a href="#">0971 895517</a></p>
+                <p><a href="https://www.facebook.com/profile.php?id=100057667710156">Dulce Sensaciones Pastelería</a></p>
+                
+            </div>
+           </div>
+           
+           <br>
+           
+           <p class="copyright">© 2022 Dulce Sensaciones Pastelería</p>
+           
+        </footer>
+     
+</body>  
+</html>
